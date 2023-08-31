@@ -1,0 +1,24 @@
+/* 
+Cosas que se pueden hacer con transform
+    -trasladar elementos
+    -escalar elementos
+    -rotar elementos
+    -segar elementos
+
+    Esto se utiliza principalmente para las animaciones
+*/
+
+.caja {
+    background-color: #ffaa5a;
+    width: 200px;
+    height: 200px;
+   /*  transform: translate(200px,50px); *//* primer valor es de izquierda a derecha, y el segundo es de arriba hacia abajo, si se coloca 1 solo valor la caja se traslada de izquierda a derecha y de arriba hacia abajo */
+    /* 
+    También está translateX(200px), con esta propiedad se traslada solo en el eje X, y translateY(50px) se traslada en el eje Y
+    */
+    /* transform: scale(2,2); *//* Esta propiedad cambia el tamaño del elemento */
+    /* transform: rotate(20deg); *//* Esta propiedad permite rotar los elementos */
+
+    transform: skew(20deg,0deg);/* Se utiliza para sesgar (esto es una especie de rotación en los ejes X, Y y Z) los elementos XD: si se usa esta propiedad no se podrán usar ninguna de las otras */
+}
+

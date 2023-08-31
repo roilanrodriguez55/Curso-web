@@ -1,0 +1,48 @@
+/* 
+    Graficos
+        list-style: none | disc |circle | square;
+
+    Numéricos
+        list-style: decimal | decimal-leading-zero | lower-roman |upper-roman | lower-latin |upper-latin;
+*/
+
+/* Para quitar las viñetas */
+
+/* ul,ol {
+    list-style: none;
+    padding: 0;
+} */
+
+/* Para cambiar las viñetas */
+
+/* ul { */
+    /* list-style: disc; */
+    /* list-style-image: url(images/checked.png); *//* Para agregar una imagen personalizada para el estilo de la viñeta de los elementos */
+    /* position: relative;
+    left: 70px;
+} */
+
+/* ol {
+    list-style: upper-roman;
+} */
+
+/* Haciendo un menú de navegación */
+
+.menu {
+    background-color: #4357ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #4888d6;
+}

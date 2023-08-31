@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atributos de enlaces</title>
+  </head>
+  <!-- Rutas absolutas:
+            Tienen un protocolo, http o https y son unicas en la red. Se suelen utilizar para rutas externas
+        Rutas relativas:
+            Pueden ser relativas al punto donde nos encontramos o relativas a la raiz del proyecto
+        
+            No usan protocolo
+        
+            Si el recurso se encuentra al mismo nivel (en la misma carpeta) podremos unicamente escribir el nombre del archivo.
+        
+            si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queremos salir.
+
+        Atributos de los enlaces
+            target: define donde se abrirá el recurso solicitado. Por norma general siempre que se usen rutas absolutas se pone como valor "_blank"
+
+            download: atributo booleano, sirve para descargar el recurso solicitado.
+            IMPORTANTE, el recurso debe estar en tu mismo servidor
+
+        -->
+
+  <body>
+    <h1>Atributos de los enlaces</h1>
+    <!-- 
+        target="_blank" de esta forma se abre el enlace en una nueva pestaña
+        target="_self" de esta forma se abre el enlace en la misma pestaña, asi que se puede prescindir de el si no es necesario abrir una nueva pagina 
+    -->
+    <a href="01-index.html" target="_self">Pagina 1 del curso</a><br />
+    <a href="https://google.com" target="_blank">Google</a><br />
+    <a href="/demo/Codigo ASCII Completo.png" download>Descargar Foto</a>
+  </body>
+</html>

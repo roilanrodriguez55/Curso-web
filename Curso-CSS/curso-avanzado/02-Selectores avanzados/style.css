@@ -1,0 +1,11 @@
+/* Selectores avanzados */
+
+div > p {
+    /* Este selecciona los parrafos que son hijos directos de los div */
+    color: red;
+}
+
+input[type="text"] {/* De esta forma se selecciona un tipo de input */
+    color: red;
+}
+

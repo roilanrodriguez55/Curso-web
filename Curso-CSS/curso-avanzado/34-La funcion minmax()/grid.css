@@ -1,0 +1,9 @@
+.container {
+    display: grid;/* Con esto se activa el grid */
+    /* Permite que se pueda agregar columnas */
+    grid-template-columns: minmax(150px, 250px) 1fr;/* la posicion de cada tamaño significa la columna */
+    /* Permite que se pueda agregar filas */
+    grid-template-rows: 150px 300px;
+    /* Pone filas */
+    grid-gap: 20px;
+}

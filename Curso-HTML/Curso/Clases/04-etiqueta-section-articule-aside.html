@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section, articule y aside</title>
+  </head>
+  <!-- 
+    section: es un contenedor generico que agrupa contenido que está relacionado. Cuando creamos bloques cuyo contenido es parte de un bloque total usaremos section
+
+    article: es un contenedor que representa contenido idependiente, es decir, podemos leer ese fragmento en cualquier otro sitio y tendria sentido en si mismo
+
+    aside: se utiliza para represetar contenido relacionado pero que no forma parte del contenido principal
+
+    Anidamiento:
+        Un section puede contener articles, por ejemplo, si tenemos varios articulos que hablan sobre etiquetas html, deben ir dentro de un section, ya que es contenido relacionado entre si, y los article serian contenido independiente porque podriamos leer uno sin haber leido el resto, y seguiria teniendo sentido.
+        El article es definido como un componente de la pagina de contenido independiente, esto implica que esta etiqueta pueda tener un header y un footer propios.
+
+        Tambien existe el caso en el que un article contenga varias secciones, el articulo independiente podria ser navegadores y este contener dentro secciones como navegadores mas utilizados 2020
+ -->
+  <body>
+    <header>
+      <h1>Pagina web de Programacion gratuita</h1>
+    </header>
+    <!-- Aside -->
+    <aside>Visita mi canal de Youtube</aside>
+    <main>
+        <!-- Article dentro de Section -->
+      <section>
+        <h2>Noticias del Dia</h2>
+        <article>
+          <header><h3>Noticia 1</h3></header>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+            ipsam, fugiat ducimus nemo suscipit praesentium repudiandae beatae
+            alias ea dignissimos dicta? Atque molestiae sapiente debitis
+            assumenda, quis quisquam quidem soluta?
+          </p>
+          <footer>La noticia 1 ocurrio en Madrid</footer>
+        </article>
+        <article>
+          <header><h3>Noticia 2</h3></header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            ullam neque, saepe minima natus maiores aliquid explicabo non
+            repellat hic consequatur perspiciatis voluptatum aliquam temporibus
+            doloribus dolorum aperiam libero sapiente!
+          </p>
+          <footer>La noticia 2 ocurrio en Cuba</footer>
+        </article>
+        <article>
+          <header><h3>Noticia 3</h3></header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolor
+            eos itaque animi, soluta esse quia! Est, libero obcaecati et
+            voluptatum nemo commodi dolorum suscipit iusto ipsum temporibus
+            laudantium numquam.
+          </p>
+          <footer>La noticia 3 ocurrio en La Habana</footer>
+        </article>
+      </section>
+
+      <!-- Section dentro de Article -->
+      <article>
+        <header></header>
+        <h2>Navegadores mas utilizados en 2020</h2>
+        <section>
+            <header><h3>Chrome</h3></header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor facere voluptates reprehenderit quo ratione id sunt blanditiis suscipit praesentium repellendus aut, ducimus molestias dolores, nisi consequatur sit distinctio facilis!</p>
+            <footer>Creado por Google</footer>
+        </section>
+        <section>
+            <h3>Firefox</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolore, odit, sequi delectus quam sed placeat et facilis dicta iusto dolorem corrupti id asperiores! Architecto animi quas debitis nesciunt illo!</p>
+        </section>
+
+      </article>
+
+      
+
+
+
+    </main>
+    <footer>14/05/2023</footer>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+    /* Cambiar el tipo de fuente */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Cambiar el tamaño de la fuente */
+    font-size: 50px;
+    /* Cambiar el estilo de la fuente a italic */
+    font-style: italic;
+    /* Cambiar el estilo de la fuente a bold */
+    font-weight: bold;
+    /* Cambiar el color de la fuente */
+    color: greenyellow;
+    /* Cambiar la alineación del texto (left, right, center) */
+    text-align: center;
+    /* Cambiar la decoaración del texto (subrayar) */
+    text-decoration: underline;
+    /* Cambiar la letras para poner todas en mayúscula o minúscula */
+    text-transform: uppercase;
+}
+
+p {
+    /* Cambiar el espacio que hay entre las letras */
+    letter-spacing: 2px;
+    /* Cambiar el espacio entre las lineas */
+    line-height: 30px;
+    /* Se pone la alineación del texto a ambos lados (justify) */
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+    
+}

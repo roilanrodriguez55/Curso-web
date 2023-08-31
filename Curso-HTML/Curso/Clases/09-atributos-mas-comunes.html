@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos mas comunes</title>
+    <style>
+        .clases{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Atributos mas comunes</h2>
+    <!-- Estos atributos sirven para la mayoria de etiquetas -->
+    <strong>class</strong>-> Este atributo se usa para dar estilos a traves de CSS <br>
+    <strong>id</strong>-> Es un identificador unico que se utiliza para seleccionar el elemento desde JavaScript y  para hacer navegacion a traves de anclas <br>
+    <strong>title</strong>-> Es un atributo que ayuda a la accesibilidad mostrando una descripcion del elemento al que pertenece <br>
+    <strong>data-*</strong> -> Es un atributo que nos permite guardar algun valor en la etiqueta HTML <br>
+    
+    <!-- Este es un ejemplo para las clases -->
+    <p class="clases">Clases</p>
+    <!-- Este es un ejemplo para los identificadores -->
+    <p id="identifier">Identificador a traves de un id</p>
+    <!-- Este es un ejemplo para los titulos con tooltip -->
+    <p title="Este es un ejemplo del atributo title">Titulos</p>
+    <!-- Este es un ejemplo para los datos pasados en la etiqueta -->
+    <p id="datos" data-ejemplo="Datos de ejemplo">Datos pasado en la etiqueta</p>
+
+    <script>
+        //Este es un ejemplo de que se puede hacer con el id en JavaScript
+        const i=document.getElementById('identifier')
+        console.log(i.textContent);
+        //Este es un ejemplo de que se puede hacer con el data-* en JavaScript
+        const p=document.getElementById('datos')
+        console.log(p.dataset.ejemplo);
+        
+    </script>
+</body>
+</html>

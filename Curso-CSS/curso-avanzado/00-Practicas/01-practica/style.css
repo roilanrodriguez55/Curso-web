@@ -1,0 +1,23 @@
+.tarjeta {
+  width: 200px;
+  text-align: center;
+  margin: 40px;
+  background-color: rgb(16, 228, 155);
+}
+
+.tarjeta1 {
+  border: 2px solid red;
+  font-size: 20px;
+  font-style: italic;
+  margin-right: 30px;
+}
+
+.tarjeta2 {
+  border: 4px solid blue;
+  font-size: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  text-align: right;
+  margin-left: 40px;
+  padding: 15px 0 20px 50px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Linea</title>
+</head>
+
+<body>
+    <h1>Elementos de Linea</h1>
+    <!-- 
+    em->enfasis (inclina el texto como con cursiva, no significa que se cambie a cursiva, simplemente es una forma para destacar el texto por sobre lo demás)
+    strong -> mas enfasis (pone en negrita el texto que abarca, no significa que se cambie a negrita, simplemente es una forma para destacar el texto aún mas que el "em")
+    small->Menos enfasis que el texto normal (pone mas pequeño el tamaño de la letra para darle menos enfasis)
+    br->forzar un salto de linea 
+    wbr->salto de linea si hiciera falta (este salto de linea se utiliza para que no halla division en las palabras al final del renglon)
+    Ej:
+    Si quisieramos dar un salto de linea pero que no me corte alguna palabra dentro de esta url
+    http://127.0.0.1:5500/06-elementos-de-linea.html
+    se pondria el wbr en el lugar donde quisieramos que el navegador de el salto de linea
+    Ej: http://127.0.0.1:5500/<wbr>06-elementos-de-linea.html
+    time-> se usa para representar un contenido de hora y fecha
+    i-> italic
+    b->bold
+    u->underline
+    sup-> Supindice (se usa para poner un texto por sobre otro)
+    sub->Subindice (se usa para poner un texto por debajo de otro)
+ -->
+    <section>
+        <h2>em (darle enfasis al texto seleccionado)</h2>
+        <p>
+            Esto es un <em>ejemplo</em> de como se utiliza el <em>em</em> en html
+        </p>
+    </section>
+    <section>
+        <h2>strong (mas enfasis)</h2>
+        <p>
+            Esto es un <strong>ejemplo</strong> de como se utiliza el
+            <strong>strong</strong> en html
+        </p>
+    </section>
+    <section>
+        <h2>small (Menos enfasis que el texto normal)</h2>
+        <p>Esto es un <small>ejemplo</small> del small en html</p>
+    </section>
+
+    <section>
+        <h2>br (forzar un salto de linea )</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur,<br />
+            <!-- aqui se va a dar el salto de linea -->
+            adipisicing elit. Nulla placeat nobis magnam reiciendis laudantium sint
+            soluta sed nisi officiis, sit ullam perspiciatis omnis consectetur fuga
+            tenetur hic voluptas. Odio, neque. Officiis praesentium dolorum quo, sed
+            eius distinctio maxime eos. Placeat omnis ipsum inventore ullam
+            quo<!-- aqui hay otro salto de salto de linea forzado -->
+            <br />
+            esse, aspernatur, quasi vel mollitia earum laboriosam enim quia eum
+            officiis ut dolores? Unde, inventore? Deleniti explicabo necessitatibus
+            nam non corporis voluptas atque, aut culpa nemo neque voluptatem
+            architecto dolore modi laudantium illo ex eaque id. Fuga incidunt
+            asperiores inventore officiis laudantium debitis! Illo, explicabo!
+            Inventore quasi quidem laborum animi maxime nesciunt, iure
+            exercitationem, debitis autem delectus temporibus incidunt corporis a
+            iusto veritatis error deleniti, suscipit alias officiis? Doloremque
+            explicabo pariatur quae accusantium? Modi, alias!
+        </p>
+    </section>
+    <section>
+        <h2>wbr (Salto de linea si el navegador lo necesita)</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni
+            minima alias sequi at, excepturi ratione reiciendis modi
+            quaerat?<!-- aqui se va a dar un salto de linea si el navegador lo necesita -->
+            <wbr><!-- <wbr />  cuando la etiqueta wbr aparezca asi, con la barra inclinada, no es un error, solo significa que en el anterior estandar html llamado xhtml se usaba de esa forma, para solucionarlo simplemente hay que darle el formato segun las caracteristicas de html-->
+            Corrupti assumenda nemo facilis voluptatem illo adipisci sunt eum unde
+            reprehenderit. Incidunt totam eius accusamus. Sed esse quia
+            consequuntur, numquam quae exercitationem aliquam rerum temporibus aut
+            dolore soluta sit cupiditate, nisi ab odio facilis omnis tempore
+            voluptatem id commodi. Dolorum, ipsam? Atque
+            <!-- aqui se va a dar un salto de linea si el navegador lo necesita -->
+            <wbr>dolorem odio quaerat! Ipsa exercitationem molestias autem, atque
+        quaerat officiis ex quia, labore perferendis quasi illo iusto magnam
+        iure culpa cumque nobis sint. Magnam consequatur quos animi. Earum,
+        facilis. Saepe aperiam aspernatur laudantium at illo sequi. Quam
+        consequatur molestiae alias, odit, iusto quisquam repellendus temporibus
+        voluptatem assumenda adipisci tempore laboriosam dolor blanditiis! Quam
+        error amet natus sequi placeat expedita! Sequi rem quia cumque
+        asperiores. At saepe aspernatur exercitationem mollitia temporibus.
+        Blanditiis commodi, corporis fugit sed quasi quis, amet corrupti
+        necessitatibus, ab doloremque voluptatibus repudiandae. Porro facere
+        quibusdam dolore veniam! Provident corrupti quae saepe voluptatibus
+        inventore consequatur adipisci quasi deserunt ratione, distinctio iste
+        esse maxime quibusdam libero odio ducimus quo laborum earum, enim ea
+        incidunt eveniet aliquam debitis explicabo? Ut!
+        </p>
+    </section>
+
+    <section>
+        <h2>time (se usa para representar un contenido de hora y fecha)</h2>
+        <!-- Ejemplo -->
+        <time>14/05/2023 12:36 pm</time>
+        <!-- pueden ser la hora o la fecha por separado -->
+    </section>
+
+    <section>
+        <h2>estilos de texto (i-italic, b-bold, u-underline)</h2>
+        <p>
+            <!-- Italic se usa para darle estilo cursiva a un texto -->
+            <i>Este texto tiene estilo Italic</i><br>
+            <!-- Bold se usa para darle estilo negrita a un texto -->
+            <b>Este texto tiene estilo Bold</b><br>
+            <!-- Underline se usa para subrayar un texto -->
+            <u>Este texto tiene estilo Underline</u><br>
+        </p>
+    </section>
+    <section>
+        <h2>Supindice</h2>
+        <p>Como se escribe 2 elevado al cuadrado? <br>
+            2 elevado al cuadrado se escribe asi: 2<sup>2</sup></p>
+        <h2>Subindice</h2>
+        <p>
+            Como se escribe la formula quimica del agua (H2O)? <br>
+            La formula quimica del agua se escribe asi H<sub>2</sub>O
+        </p>
+    </section>
+
+</body>
+
+</html>

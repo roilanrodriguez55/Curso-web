@@ -1,0 +1,25 @@
+@font-face {
+  /* Se usa para establecer una ruta a un tipo de fuente personalizada */
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-BlackRoboto-BlackItalic";
+  src: url(fonts/Roboto-BlackItalic.ttf);
+}
+
+.p1 {
+  font-family: "Roboto-Black";
+  font-size: 20px;
+}
+
+.p2 {
+  font-family: "Roboto-BlackItalic";
+  font-size: 20px;
+}
+
+.p3 {
+    font-family: 'Borel', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+a {
+  color: rgb(222, 60, 25);
+  font-size: 60px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: black; /* Le da estilo al pasar el click por encima a la etiqueta o clase que se selecciona */
+  /* font-size: 80px; */ /* Le cambia el tamaño a la fuente para dar un efecto optico mejor */
+}
+
+a:visited {
+  /* Esta seudoclase se utiliza para cambiar el estilo cuando se visite un link de una página en algún momento */
+  color: blue;
+}
+
+a:link {
+  /* Esta seudoclase se utiliza para cambiar el estilo a las paginas que no se hayan visitado aún */
+  color: brown;
+}
+
+a:active {
+  color: aqua;
+  font-size: 50px;
+}

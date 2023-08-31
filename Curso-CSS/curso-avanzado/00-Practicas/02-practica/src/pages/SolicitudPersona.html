@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Solicitud de Persona</title>
+</head>
+
+<body>
+  <header class="encabezado">
+    <div class="contenedor">
+      <nav class="menu">
+        <div class="logo">
+          <h1>
+            <img src="../img/Logo de Banco.png" alt="logo_sucursal" />Sucursal No.
+            105
+          </h1>
+        </div>
+        <div class="menu_items">
+          <ul>
+            <li id="inicio"><a href="../../index.html">Inicio</a></li>
+            <li id="sol_per">
+              <a href="#sol_per">Procesar Solicitud de Persona</a>
+            </li>
+            <li id="sol_emp">
+              <a href="../pages/SolicitudEmpresa.html">Procesar Solicitud de Empresas</a>
+            </li>
+            <li id="solicitudes">
+              <a href="../pages/Solicitudes.html">Solicitudes</a>
+            </li>
+            <li id="ges_sol">
+              <a href="../pages/GestionSolicitud.html">Gestión de Solicitud</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <h2>Solicitud de Persona</h2>
+    <div class="formulario">
+      <form>
+        <label for="namesol">Nombre del Solicitante</label>
+        <input id="namesol" type="text" name="namesol" maxlength="50" required autofocus />
+        <br />
+        <label for="valorsol">Valor de la solicitud</label>
+        <input id="valorsol" name="valorsol" type="text" required />
+        <br />
+        <label for="dir">Dirección Particular</label>
+        <input id="dir" type="text" name="dir" />
+        <br />
+        <label for="carnet">Carnet de Identidad</label>
+        <input id="carnet" name="carnet" type="text" minlength="11" maxlength="11" required />
+        <br />
+        <label for="sal_n">Salario total del núcleo</label>
+        <input id="sal_n" type="text" name="sal_n" required />
+        <br />
+        <label for="cant_p">Cantidad de Personas</label>
+        <input id="cant_p" name="cant_p" type="number" min="1" max="15" />
+        <br />
+        <button>Procesar</button>
+      </form>
+    </div>
+    <hr />
+    <div class="mostrar_informacion">
+      <table>
+        <caption>
+          <b>Solicitudes Recientes</b>
+        </caption>
+
+        <thead>
+          <th>Codigo Sol.</th>
+          <th>Nombre</th>
+          <th>Valor</th>
+          <th>Dirección Particular</th>
+          <th>DNI</th>
+          <th>Salario del Núcleo</th>
+          <th>Cantidad de Personas</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Roilan Rodriguez Castillo</td>
+            <td>15000</td>
+            <td>Juana Romero #161</td>
+            <td>02030262389</td>
+            <td>5000</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Yamila Abreu Herrera</td>
+            <td>4000</td>
+            <td>Reparto Hermanos Cruz</td>
+            <td>03102565234</td>
+            <td>10000</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+
+</html>

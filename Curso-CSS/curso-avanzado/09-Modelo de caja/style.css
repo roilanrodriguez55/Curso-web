@@ -1,0 +1,39 @@
+/* 
+En el modelo de caja esta presente en todas las etiquetas en diferentes capas: 
+1-margin: delimita el margen de cada etiqueta
+2-border: indica el borde de cada etiqueta
+3-padding: indica la distancia de la caja con el contenido
+4-content: indica el contenido de cada etiqueta
+*/
+
+* {/* Selector universal */
+    /* Establece el margen de la etiqueta */
+    margin: 0;
+}
+
+.caja {
+    width: 200px;
+    background-color: red;
+    /* Establce el borde de cada etiqueta */
+    border: 2px solid blue;
+    /* Distancia de la caja con el contenido 
+    tiene 3 formas distintas:
+    -formato de 1: indica la distancia por todas las direcciones
+    (arriba, abajo, derecha, izquierda) 
+    -formato de 2: el primer valor indica el alto por encima
+    y por debajo, y el segundo valor seran los laterales 
+    izquierda y derecha
+    -formato de 4: el primer valor indica arriba,
+    el segundo indica el lado derecho, el tercer 
+    valor indica el lado abajo, el cuarto valor 
+    indica abajo
+    */
+    /* primer valor arriba o abajo, y segundo valor
+    derecha e izquierda */
+    padding: 20px 5px;
+
+
+    text-align: justify;
+    letter-spacing: 2px;
+    
+}

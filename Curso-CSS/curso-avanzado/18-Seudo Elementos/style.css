@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selecciona la primera letra */
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Selecciona la primera linea */
+p::first-line {
+    background-color: #cf5c36;
+    line-height: 40px;/* Para cambiar el alto de la linea */
+}
+
+*::selection {
+    background-color: #f9a03f;
+    color: white;
+}
+
+.caja {
+    background-color: #f9a03f;
+    height: 150px;
+    width: 150px;
+}
+
+.caja::before {
+    content: "Contenido antes de la caja";
+    display: block;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 50px;
+
+}
+
+.caja::after {
+    content: "";width: 50px;
+    height: 50px;
+    display: block;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}

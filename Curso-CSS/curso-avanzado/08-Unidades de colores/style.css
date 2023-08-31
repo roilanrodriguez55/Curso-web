@@ -1,0 +1,18 @@
+/* 
+Hay 17 palabras clave que podemos usar: 
+aqua, black, blue, fuchsia, gray, green, line, maroon, navy,
+olive, orange, purple, red, silver, teal, white, yellow.
+
+-RGB Decimal: rgb(215,38,61)
+
+-RGB Porcentual: rgb(84%,15%,24%)
+
+-RGB Hexadecimal: #D7263D
+
+*/
+
+.caja {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}

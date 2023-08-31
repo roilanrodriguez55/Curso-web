@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Solicitud de Empresa</title>
+</head>
+
+<body>
+  <header class="encabezado">
+    <div class="contenedor">
+      <nav class="menu">
+        <div class="logo">
+          <h1>
+            <img src="../img/Logo de Banco.png" alt="logo_sucursal" />Sucursal No.
+            105
+          </h1>
+        </div>
+        <div class="menu_items">
+          <ul>
+            <li id="inicio"><a href="../../index.html">Inicio</a></li>
+            <li id="sol_per">
+              <a href="../pages/SolicitudPersona.html">Procesar Solicitud de Persona</a>
+            </li>
+            <li id="sol_emp">
+              <a href="#sol_emp">Procesar Solicitud de Empresas</a>
+            </li>
+            <li id="solicitudes">
+              <a href="../pages/Solicitudes.html">Solicitudes</a>
+            </li>
+            <li id="ges_sol">
+              <a href="../pages/GestionSolicitud.html">Gestión de Solicitud</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenido">
+    <h2>Solicitud de Empresa</h2>
+    <br />
+    <img src="../img/empresa-100.png" alt="logo_empresa" />
+    <div class="formulario">
+      <form>
+        <label for="namesol">Nombre del solicitante:</label>
+        <input id="namesol" required autofocus type="text" /><br />
+        <label for="valorsol">Valor de la Solicitud:</label>
+        <input id="valorsol" type="text" required /><br />
+        <label for="dir">Dirección Particular:</label>
+        <input id="dir" type="text" /><br />
+        <label for="cod_e">Codigo de la Empresa:</label>
+        <input id="cod_e" minlength="6" maxlength="6" type="text" /><br />
+        <label for="dirname">Nombre del Director:</label>
+        <input type="text" id="dirname" /><br />
+        <label for="dirdir">Dirección del Director:</label>
+        <input type="text" id="dirdir" /><br />
+        <label for="gan">Ganancia Promedio:</label>
+        <input type="text" id="gan" /><br />
+        <label for="cant_t">Cantidad de trabajadores:</label>
+        <input type="number" id="cant_t" /><br />
+        <label for="ministerio">Ministerio:</label>
+        <div class="min_items">
+          <select>
+            <option value="default" selected>Ninguno</option>
+            <option value="Telecomunicaciones">Telecomunicaciones</option>
+            <option value="Agricultura">Agricultura</option>
+            <option value="Deporte">Deporte</option>
+          </select>
+        </div>
+        <br />
+        <button>Procesar</button>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

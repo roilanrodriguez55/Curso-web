@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contenido embebido</title>
+</head>
+
+<body>
+    <!-- El contenido embebido es el contenido que se trae desde afuera de nuestra pagina, por ejemplo:
+    Imagenes, Videos, Audios y IFrames -->
+
+    <!-- 
+        Imagenes:
+        Hay 2 tipos de imagenes, vectoriales, que son:
+        -las imagenes svg (recomendado siempre que se pueda)
+        -Mapas de bits
+            *jpg
+            *png 8 y 24 (si se necesita transparencia en una foto)
+            *gif (si se necesitan imagenes animadas)
+            *webp (es el formato que menos pesa)
+     -->
+
+    <!-- 
+        Recomendación, siempre convertir todas las imagenes ya sean jpg, png o gif a webp ya que mantienen su
+        función principal, pesan menos y no pierden calidad
+        ¿Como se meten imagenes a una web?
+        usando la etiqueta img con el atributo src y el atributo alt, y tiene la siguiente sitaxis
+        <img src="/ruta/del/archivo.webp" alt="foto-de-archivo">
+      -->
+    <h1>Contenido embebido</h1>
+    <!--<h2>Imagenes</h2>
+    <img srcset="
+      /assets/images/a.jpg,
+      /assets/images/b.jpg 1.5x,
+      /assets/images/c.jpg 2x
+      " alt="fondo" width="100%"> -->
+
+    <h2>Audios</h2>
+    <audio src="assets/audios/01 - Envolver.mp3" controls></audio>
+
+    <h2>Videos</h2>
+
+
+    <video id="video" src="assets/videos/Instalar Wordpress en LOCAL con Xampp (2022) 💻.mp4" controls width="50%" muted
+        loop></video><br>
+    <label for="video"><b>Instalar Wordpress en LOCAL con Xampp (2022) 💻.mp4</b></label>
+
+</body>
+
+</html>

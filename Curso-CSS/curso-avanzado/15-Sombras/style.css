@@ -1,0 +1,15 @@
+.texto {
+  /* El primer valor es sombra horizontal,
+        el segundo valor es sombra verticar,
+        y el tercer valor es la opacidad de
+        la sombra */
+  /* text-shadow: 10px 10px 10px black; */
+  color: white;
+  text-shadow: 2px 0 10px blue;
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    box-shadow: 10px 5px 20px black;
+}

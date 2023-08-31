@@ -1,0 +1,19 @@
+body {
+  /* background: url(images/zorro-en-la-naturaleza_1920x1080_xtrafondos.com.jpg); */ /* url() se usa para poner la ruta donde está la imagen que queremos poner */
+  /* background-size: cover; */ /* El cover permite que tome el ancho de la pantalla */
+  /* background-repeat: no-repeat; */ /* Con no-repeat aseguramos que no se repita la foto en el fondo */
+  /* background-attachment: fixed; */ /* Por defecto viene scroll lo cual nos permite que la imagen nos haga scroll junto con la pagina, y tambien está fixed para hacer que la imagen se quede fija y no se mueva con la pagina */
+  /* background-position: 500px ;*/ /* Con esto se puede mover la posición del fondo */
+
+  /* Una forma resumida de escribir todo eso es escribiendolo en una linea */
+  /* background: url("images/zorro-en-la-naturaleza_1920x1080_xtrafondos.com.jpg")
+    no-repeat scroll; */
+}
+
+.fondo {
+  width: 600px;
+  height: 600px;
+  background: url(images/zorro-en-la-naturaleza_1920x1080_xtrafondos.com.jpg) no-repeat;
+  background-size: 300px;
+  
+}

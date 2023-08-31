@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    /* El repeat permite que se multipliquen las columnas o filas según corresponda, si se colocan en una posición
+    en especifico el ancho de una columna, este toma el valor definido y se debe fijar el valor para el resto de 
+    las columnas, Ej: grid-template-columns: 200px repeat(4,1fr) 300px; esto significa que la primera y 6ta columna
+    va a tomar el valor 200px y 300px respectivamente y las restantes 4 toman el valor de 1 fr (fracción) que significa
+     que se acomodan automáticamente con el mismo ancho
+    */
+    grid-template-columns: 200px repeat(4,1fr) 200px;
+    grid-template-rows: repeat(3,150px);
+}

@@ -1,0 +1,1 @@
+//El hoisting es la propiedad que tienen las funciones que permite que sean usadas antes de inicializarla (se cargan en memoria antes de ejecutar el código)

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  background-color: #212d40;
+  display: flex; /* Con esto se habilita el uso de flexbox */
+  flex-direction: row; /* Me permite cambiar la dirección de las cajas */
+  flex-wrap: wrap; /* Con esto se hace que las cajas se queden dentro del contenedor, de lo contrario se iría fuera de este */
+
+  /* flex-flow: row wrap; */ /* Esta es la unión de las dos propiedades anteriores juntas */
+
+  /* justify-content: space-between; */ /* Con esto se logra que las cajas hijas cambien su posición dentro del contenedor padre */
+
+  /* align-items: center; */ /* Con esto se cambia la alineacion de los items en una columna */
+
+  /* align-content: flex-start; *//* Con esto se cambia la alineción de los items en varias columnas */
+
+  /* Esto solo sirve para los contenedores padres */
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #f79256;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+  /* flex-shrink: 0; */
+  flex-basis: 200px;
+}
+
+/* .dos {
+  flex-grow: 1;
+}
+
+.tres {
+  flex-grow: 10;
+} */
+/* .tres {
+  order: 2;
+}
+
+.dos {
+  order: 1;
+}
+ */
+/* Propiedades para los elementos hijos
+  - order:;
+  - flex-grow:;
+  Acepta un numero que servirá de proporción para hacer crecer el elemento en relacion a los otros
+  
+  Si todos los elementos tienen flex-grow 1 el espacio restante se distribuirá entre los elementos
+
+  - flex-shrink:;
+  Define la habilidad de un elemento para hacerse más pequeño
+
+  Por defecto todos se pueden hacer más pequeños pero  si le ponemos flex-shrink 0 el elemento no podrá ser más pequeño que su ancho.
+
+  - flex-basis:;
+  Nos permite especifical el valor inicial que tendrá un elemento
+*/

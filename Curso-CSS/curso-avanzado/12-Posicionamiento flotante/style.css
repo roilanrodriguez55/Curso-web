@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.padre {
+    width: 700px;
+    background-color: brown;
+    overflow: hidden;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    margin: 20px;
+    font-size: 38px;
+    /* float: left; */
+}
+
+/* .clear {
+    clear: both;
+} */
+
+
+.uno {
+    float: left;
+}
+
+.dos {
+    float: right;
+}
+
+article {
+    width: 800px;
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+article img {
+    float: left;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}

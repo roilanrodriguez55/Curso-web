@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Otros elementos de un formulario</title>
+  </head>
+  <body>
+    <!-- 
+
+        fieldset -> Se utiliza para agrupar elementos dentro de un formulario
+        legend -> Representa una etiqueta para el contenido del fieldset
+        file -> Este input se utiliza para cargar archivos y enviarlos desde un formulario
+        textarea -> Se utiliza para introducir un texto en un formulario
+
+     -->
+
+    <form action="">
+      <fieldset>
+        <legend>
+          Datos Personales
+        </legend>
+        <label for="name"> Nombre </label>
+      <input type="text" name="name"/>
+      <label for="lastname">Apellido</label>
+      <input type="text" name="lastname"/>
+      
+      </fieldset>
+      <input type="file">
+      <button type="submit">Enviar</button>
+      <label for="">Fuel</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      
+    </form>
+    
+  </body>
+</html>

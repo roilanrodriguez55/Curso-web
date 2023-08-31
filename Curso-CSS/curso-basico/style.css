@@ -1,0 +1,186 @@
+#titulo {
+  color: tomato;
+}
+
+p.texto {
+  color: slateblue;
+}
+
+p.especial {
+  color: mediumseagreen;
+}
+
+div p {
+  color: aquamarine;
+}
+
+div h2,
+div h3 {
+  color: brown;
+}
+
+* {
+  font-size: 24px;
+  /* color: black; */
+}
+
+/*Esta es la forma de escribir comentarios de CSS*/
+
+/* .color {
+    color: #000000;
+} */
+
+/* .color {
+  color: rgb(24, 30, 55);
+}
+ */
+
+.color {
+  /* border: 5px black solid; */
+  border-style: solid; /* tipo de estilo del borde */
+  border-color: blue; /* color del borde */
+  border-radius: 5px; /* borde redondeado */
+  border-width: 5px; /* ancho del borde */
+  /* 
+    Alternativas de tipos de bordes:\
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+}
+
+#fondo {
+  background-color: red;
+  opacity: 1;
+  background-image: url("fondo.jpg");
+  height: 200px;
+  background: #f00 url("fondo.jpg") repeat-y center bottom / 100px 100px;
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px;
+  padding: 30px 15px 5px;
+  border: solid 2px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+  outline: 2px solid red;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 3px 5px 5px blue;
+}
+
+/* El orden en que se pongan estas 3 opciones de los links immporta bastante, y deben seguir de esta forma */
+a:link {
+  color: blueviolet;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+ul {
+  background-color: cyan;
+  list-style-type: georgian;
+  /* padding-left: 0; */
+  /* list-style-position: inside; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: solid 2px #eee;
+  padding: 5px;
+}
+
+th {
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  /* display: none; */
+  /* visibility: hidden; */
+  max-width: 300px;
+  background-color: red;
+}
+
+.inline {
+  display: inline;
+}
+
+#position {
+  position: sticky;
+  left: 20px;
+  top: 25px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  height: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.column {
+  border-radius: 5px;
+  margin: 0;
+  padding: 10px 0;
+  width: 33.3%;
+}
+
+.inline-block {
+  display: inline-block;
+  height: 55px;
+  background-color: #f00;
+}
+
+.center {
+  width: 200px;
+  margin: 0 auto;
+  background-color: aqua;
+  text-align: center;
+  padding: 50px 0;
+}

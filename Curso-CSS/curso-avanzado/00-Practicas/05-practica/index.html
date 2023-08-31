@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Practicando el uso del flexbox</title>
+</head>
+
+<body>
+    <!-- 
+        Requerimientos
+            -una barra de menu con 5 opciones separadas entre si y en el lado contrario de un logo de la pagina
+            -5 botones en el medio de la pagina que va a ser accesos directos a las 5 opciones del menu
+            -un pie de pagina con mi nombre y enlaces a mis redes sociales principales (Instagram, Facebook, Twitter, y canal de Telegram)
+            -en el fondo tiene que haber una foto de pantalla
+            -el menu se tiene que quedar en la posición donde se cree
+            -los botones van a estar distribuidos de la siguiente forma,
+            2 a la izquierda del mismo tamaño, y 3 a la derecha del mismo tamaño
+     -->
+
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <img src="assets/images/logo.png" width="120px" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Opcion 1</a></li>
+                    <li><a href="#">Opcion 2</a></li>
+                    <li><a href="#">Opcion 3</a></li>
+                    <li><a href="#">Opcion 4</a></li>
+                    <li><a href="#">Opcion 5</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-container">
+                <h1>Botonera</h1>
+                <div class="box1">
+                    <div class="box"><span>Opcion 1</span></div>
+                    <div class="box"><span>Opcion 2</span></div>
+                </div>
+                <div class="box2">
+                    <div class="box"><span>Opcion 3</span></div>
+                    <div class="box"><span>Opcion 4</span></div>
+                    <div class="box"><span>Opcion 5</span></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="info">
+                <h2>Información de Contacto</h2>
+                <p class="name">Roilán Rodríguez Castillo</p>
+                <p class="center">Estudio y trabajo en la Universidad de Pinar del Río</p>
+                <p class="born">2-2-2002</p>
+                <p class="copyright">&copy Copyright</p>
+
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Telegram</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

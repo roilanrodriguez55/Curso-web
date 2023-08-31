@@ -1,0 +1,39 @@
+/* Selectores */
+
+/* Selector universal: con este selector se seleccionan todas las etiquetas de un html*/
+
+/* * {
+    color: black; 
+} */
+
+/* Selector de etiqueta */
+
+h1,
+h2,
+h3,
+h6 {
+  color: green;
+}
+
+/* Etiquetas dentro de etiquetas */
+
+div p {
+    color: blue;
+}
+
+/* Selector de clase */
+
+.rojo {
+    color: red;
+    font-size: 40px;
+}
+
+.blue {
+    color: blue;
+    font-size: 40px;
+}
+
+/* Gerarquia de los selectores:
+id -> class -> etiquetas
+*/
+

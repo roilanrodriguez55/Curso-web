@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practica de tablas</title>
+    <style>
+        th {
+            background-color: red;
+        }
+        td {
+            background-color: cyan;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Práctica de tablas</h1>
+    <table>
+      <caption>
+        Tablas de verdad
+      </caption>
+      <thead>
+        <th>p</th>
+        <th>q</th>
+        <th>p v -q</th>
+        <th>p->q</th>
+        <th>[(p v -q)->(p->q)]</th>
+        <th>-p->q</th>
+        <th>-q</th>
+        <th>[(-p->q)v-p]</th>
+        <th>-p</th>
+        <th>[(-p->q)v-p]v-p</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td>V</td>
+            <td>V</td>
+            <td>V v F</td>
+            <td>V</td>
+            <td>V</td>
+            <td>F v V</td>
+            <td>F</td>
+            <td>V</td>
+            <td>F</td>
+            <td rowspan="4">V</td>
+        </tr>
+        <tr>
+            <td>V</td>
+            <td>F</td>
+            <td>V v V</td>
+            <td>F</td>
+            <td>F</td>
+            <td>F v F</td>
+            <td>F</td>
+            <td>V</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>V</td>
+            <td>F v F</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V v V</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>F</td>
+            <td>F v V</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V v F</td>
+            <td>V</td>
+            <td>V</td>
+            <td>V</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

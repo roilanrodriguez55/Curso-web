@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <!-- 
+        Las tablas en html siren para mostrar contenido tabulado.
+
+        La estructura básica de una tabla se compone de 
+        table -> Etiqueta que encierra una tabla
+        tr -> table row, etiqueta que construye una fila
+        td -> table data, etiqueta que construye una celda
+
+        truco: el número de celdas dentro de un td establecerá el número de columnas de la tabla
+
+        Los titulos de las tablas se establecen con la etiqueta caption, es una etiqueta opcional, y segun la especificación esa etiqueta se coloca justo después de la etiqueta table
+
+        Las cabeceras de las tablas se establecen con la etiqueta thead.
+        Dentro de una etiqueta tr normal, pero en el caso de las celdas, las estableceremos con la etiqueta th en lugar de td
+
+        El contenido de la tabla debe ir dentro de una etiqueta tbody para representar el cuerpo de la tabla
+
+     -->
+
+    <h1>Tablas</h1>
+
+    <table>
+      <!-- Titulo de la tabla -->
+      <caption>
+        <b>Horario de clases</b>
+      </caption>
+
+      <!-- Cabecera de la tabla thead -->
+
+      <thead>
+        <tr>
+          <th>Horas</th>
+          <th>L</th>
+          <th>M</th>
+          <th>X</th>
+          <th>J</th>
+          <th>V</th>
+        </tr>
+      </thead>
+
+      <!-- Se pone una etiqueta tbody cuando se pone la cabecera, para darle estructura a la tabla -->
+      <tbody>
+        <tr>
+          <td>8:30 - 9:30</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+          <td>Sociales</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+        </tr>
+        <tr>
+          <td>9:30 - 10:25</td>
+          <td>Lengua</td>
+          <td>Lengua</td>
+          <td>Matematicas</td>
+          <td>Ciencias</td>
+          <td>Lengua</td>
+        </tr>
+        <tr>
+          <td>10:30 - 11:20</td>
+          <td>Educacion fisica</td>
+          <td>Ciencias</td>
+          <td>Lengua</td>
+          <td>Lengua</td>
+          <td>Educacion fisica</td>
+        </tr>
+        <tr>
+          <td>8:30 - 9:30</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+          <td>Sociales</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+        </tr>
+        <tr>
+          <td>8:30 - 9:30</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+          <td>Sociales</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+        </tr>
+        <tr>
+          <td>8:30 - 9:30</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+          <td>Sociales</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+        </tr>
+        <tr>
+          <td>8:30 - 9:30</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+          <td>Sociales</td>
+          <td>Matematicas</td>
+          <td>Matematicas</td>
+        </tr>
+      </tbody>
+
+      <!-- Se pone totalmente opcional, pone un escrito en el pie de la página -->
+      <tfoot>
+        <tr>
+          <td><b>Total de asignaturas</b></td>
+          <td><b>12</b></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
